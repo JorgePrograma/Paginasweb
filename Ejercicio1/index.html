@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+</body>
+
+<form class="formulario" action="#">
+    <h1>Formulario</h1>
+    <div class="contenido">
+        <label for="cedula">Ingrese Cedula</label>
+        <input type="number" id="cedula" name="cedula" placeholder="Ingrese cedula">
+        <label for="nombre">Ingrese Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre" maxlength="40">
+        <label for="apellido">Ingrese Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellido" maxlength="40">
+        <label for="detalles">Ingrese Detalles</label>
+        <input type="textarea" name="detalles" id="detalles" placeholder="Ingrese Detalles" maxlength="200">
+        <label for="fecha">Ingrese Fecha</label>
+        <input type="date" name="fecha" id="fecha" placeholder="Ingrese fecha">
+        <label for="hora">Ingrese Hora</label>
+        <input type="datetime" name="hora" id="hora" placeholder="Ingrese hora">
+        <label for="correo">Ingrese Correo</label>
+        <input type="email" name="correo" id="correo" placeholder="Ingrese correo @gmail.com">
+
+    </div>
+
+    <div class="casilla">
+        <p>Soltero</p>
+        <label for="si">Si</label>
+        <input type="checkbox" name="solterosi" id="si" value="si">
+        <label for="no">no</label>
+        <input type="checkbox" name="solterono" id="no" value="no ">
+    </div>
+    <div class="radio">
+        <p>tipo de pago</p>
+        <label for="efectivo">efectivo</label>
+        <input type="radio" name="tipo" id="efectivo">
+        <label for="tarjeta-debito">tarjeta debito</label>
+        <input type="radio" name="tipo" id="tarjeta-debito">
+        <label for="tarjeta-virtual">tarjeta virtual</label>
+        <input type="radio" name="tipo" id="tarjeta-virtual">
+    </div>
+    <label for="seleccion"></label>
+
+    <div class="lista-despegable">
+        <select>
+                <option value="seleccionar-pais">seleccionar pais</option>
+                <option value="colombia">mexico</option>
+                <option value="brasil">brasil</option>
+                <option value="argentina">argentina</option>
+                <option value="venezuela">venezuela</option>
+                <option value="portugal">portugal</option>
+                <option value="europa">europa</option>
+            </select>
+    </div>
+    <div class="lista despegable seleccionar">
+        <select id="dias-semana">
+                <option value="seleccionar-dia-semana">seleccionar dia</option>
+                <option value="luenes">lunes</option>
+                <option value="martes">martes</option>
+                <option value="miercoles">miercoles</option>
+                <option value="jueves">jueves</option>
+                <option value="viernes">viernes</option>
+                <option value="sabado">sabado</option>
+                <option value="domingo"></option>
+            </select>
+    </div>
+    <input type="button" value="enviar" name="">
+</form>
+
+</html>

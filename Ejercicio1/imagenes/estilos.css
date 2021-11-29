@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    background: #192019;
+}
+
+.formulario {
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    background-color: #24303c;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 7px 13px 37px#000;
+}
+
+.formulario h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formulario .contenido input,
+.formulario .contenido label {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    /* border: 1px solid #1f53c5;*/
+    font-size: 18px;
+}
+
+.formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario .lista-despegable {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-despegable {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+select {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: helvetica;
+    font-style: italic;
+}
+
+
+/* radio button y chechbox*/
+
+.casilla {
+    text-align: center;
+    margin: 10px;
+}
+
+.casilla input {
+    -webkit-appearance: none;
+    background-color: #c3c3c3;
+    border: 2px solid #c3c3c3;
+    width: 10px;
+    height: 10px;
+    outline-style: none;
+    margin-right: 15px;
+}
+
+.casilla input:checked {
+    background-color: #dd4141;
+}
+
+.casilla input:hover {
+    cursor: pointer;
+}
+
+
+/*Radio*/
+
+.radio {
+    margin-bottom: 20px;
+}
+
+.radio input {
+    background-color: #c3c3c3;
+    outline-style: none;
+    margin-right: 15px;
+}
+
+.radio input:hover {
+    cursor: pointer;
+    background: coral;
+}
