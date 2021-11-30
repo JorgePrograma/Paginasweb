@@ -6,7 +6,7 @@
 #contenedor {
     font-family: 'Courier New', Courier, monospace;
     width: 1200px;
-    height: 1000px;
+    height: 1170px;
     background: #ebd40b;
     text-align: center;
     margin: 0.5em auto;
@@ -59,11 +59,12 @@
 }
 
 #footer {
-    height: 13%;
+    height: 17%;
     background: #a4f575;
     margin: 1px;
-    width: 100%;
+    width: 91.5%;
     float: left;
+    padding: 50px;
 }
 
 .izquierda .contenido2 a {
@@ -257,4 +258,64 @@ h4 {
 .derechacontenido h3 {
     font-size: 25px;
     text-align: center;
+}
+
+
+/*Footer*/
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: #0d5c48;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.box__footer h2 {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a {
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-align: left;
+}
+
+.box__footer a .fab {
+    font-size: 20px;
+}
+
+.box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p {
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr {
+    margin-top: 10px;
+    height: 1px;
+    background-color: #7a7a7a;
 }
