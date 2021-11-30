@@ -10,24 +10,29 @@
 </head>
 
 <body>
+    <FONT FACE="Impact">
+        <FONT SIZE=6>
+            <MARQUEE BGCOLOR="#FFFF00">REGISTRA TU INFORMACION</MARQUEE>
+        </FONT>
+    </FONT>
 </body>
 
 <form class="formulario" action="#">
-    <h1>Formulario</h1>
+    <h1>Formulario de Informacion </h1>
     <div class="contenido">
-        <label for="cedula">Ingrese Cedula</label>
+        <label for="cedula">Ingrese un N° de Cedula</label>
         <input type="number" id="cedula" name="cedula" placeholder="Ingrese cedula">
-        <label for="nombre">Ingrese Nombre</label>
+        <label for="nombre">Ingrese su Nombre</label>
         <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre" maxlength="40">
-        <label for="apellido">Ingrese Apellido</label>
+        <label for="apellido">Ingrese su Apellido</label>
         <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellido" maxlength="40">
         <label for="detalles">Ingrese Detalles</label>
         <input type="textarea" name="detalles" id="detalles" placeholder="Ingrese Detalles" maxlength="200">
-        <label for="fecha">Ingrese Fecha</label>
+        <label for="fecha">Ingrese su Fecha</label>
         <input type="date" name="fecha" id="fecha" placeholder="Ingrese fecha">
-        <label for="hora">Ingrese Hora</label>
+        <label for="hora">Ingrese una Hora</label>
         <input type="datetime" name="hora" id="hora" placeholder="Ingrese hora">
-        <label for="correo">Ingrese Correo</label>
+        <label for="correo">Ingrese  su Correo</label>
         <input type="email" name="correo" id="correo" placeholder="Ingrese correo @gmail.com">
 
     </div>
@@ -36,44 +41,46 @@
         <p>Soltero</p>
         <label for="si">Si</label>
         <input type="checkbox" name="solterosi" id="si" value="si">
-        <label for="no">no</label>
+        <label for="no">No</label>
         <input type="checkbox" name="solterono" id="no" value="no ">
     </div>
     <div class="radio">
-        <p>tipo de pago</p>
-        <label for="efectivo">efectivo</label>
+        <p>Tipo de Pago</p>
+        <label for="efectivo">Efectivo</label>
         <input type="radio" name="tipo" id="efectivo">
-        <label for="tarjeta-debito">tarjeta debito</label>
+        <label for="tarjeta-debito">Tarjeta Debito</label>
         <input type="radio" name="tipo" id="tarjeta-debito">
-        <label for="tarjeta-virtual">tarjeta virtual</label>
+        <label for="tarjeta-virtual">Tarjeta Virtual</label>
         <input type="radio" name="tipo" id="tarjeta-virtual">
     </div>
     <label for="seleccion"></label>
 
     <div class="lista-despegable">
         <select>
-                <option value="seleccionar-pais">seleccionar pais</option>
-                <option value="colombia">mexico</option>
-                <option value="brasil">brasil</option>
-                <option value="argentina">argentina</option>
-                <option value="venezuela">venezuela</option>
-                <option value="portugal">portugal</option>
-                <option value="europa">europa</option>
+                <option value="seleccionar-pais">Selecciona tu pais</option>
+                <option value="colombia">Mexico</option>
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="portugal">Portugal</option>
+                <option value="europa">Europa</option>
             </select>
     </div>
     <div class="lista despegable seleccionar">
         <select id="dias-semana">
-                <option value="seleccionar-dia-semana">seleccionar dia</option>
-                <option value="luenes">lunes</option>
-                <option value="martes">martes</option>
-                <option value="miercoles">miercoles</option>
-                <option value="jueves">jueves</option>
-                <option value="viernes">viernes</option>
-                <option value="sabado">sabado</option>
+                <option value="Seleccionar-dia-semana">Seleccione un dia</option>
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miercoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sabado</option>
                 <option value="domingo"></option>
             </select>
     </div>
-    <input type="button" value="enviar" name="">
+
+    <input type="button" value="Enviar" name="">
+
 </form>
 
 </html>
