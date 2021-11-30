@@ -1,196 +1,190 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            background: #686264;
-        }
-        
-        #contenedor {
-            font-family: 'Courier New', Courier, monospace;
-            width: auto;
-            height: 2200px;
-            background: #686264;
-            text-align: center;
-            padding: 0.5em;
-            margin: 10px;
-        }
-        
-        #campo1 {
-            height: 2.55%;
-            background: #0b092b;
-            width: auto;
-            border: solid 1px #494043;
-            overflow: hidden;
-        }
-        
-        #campo2 {
-            height: 22%;
-            width: auto;
-            border: solid 1px #494043;
-            /*background: #494043;*/
-        }
-        
-        #campo3 {
-            height: 70%;
-            background: rgba(3, 7, 58, 0.404);
-            width: auto;
-            overflow: hidden;
-            display: flex;
-            border: solid 1px #494043;
-        }
-        
-        #campo4 {
-            height: 5%;
-            /* background: #9ba4f5;*/
-            border: solid 1px #494043;
-            background: #0b092b;
-        }
-        
-        #derecha {
-            width: 20%;
-            height: auto;
-            display: inline;
-            float: right;
-            border: solid 1px #910e3a;
-        }
-        
-        #izquierda {
-            width: 80%;
-            height: auto;
-            border: solid 1px #494043;
-        }
-        
-        #izquierda h1 {
-            margin-left: 20px;
-            float: left;
-            font-size: 30px;
-        }
-        
-        #izquierda .campo3contenido {
-            float: left;
-            width: 90%;
-            overflow: hidden;
-        }
-        
-        #izquierda .campo3contenido img {
-            height: 100px;
-            width: 100px;
-            border: solid 1px #494043;
-            float: left;
-            margin: 20px;
-        }
-        
-        #izquierda .campo3contenido h2 {
-            float: left;
-            color: black;
-        }
-        
-        #izquierda .campo3contenido p {
-            color: black;
-            margin-top: 30px;
-            text-align: justify;
-        }
-        
-        #izquierda .campo3contenido div {
-            color: black;
-            margin: 0;
-            padding: 1px;
-            margin: 10px 10px;
-        }
-        
-        #derecha .derechacontenido {
-            background: #627a4b;
-            border: solid 1px #494043;
-            vertical-align: middle;
-            height: 20%;
-            overflow: hidden;
-            margin: 10px;
-        }
-        
-        #derecha .derechacontenido img {
-            height: 100px;
-            width: 100px;
-            margin: 10px
-        }
-        
-        #derecha .derechacontenido h3 {
-            margin: 5px;
-        }
-        
-        #derecha .derechacontenido div {
-            margin-top: 40px;
-        }
-        
-        #derecha .derechacontenido p {
-            margin: 20px;
-            text-align: justify;
-        }
-        
-        #derecha .derechacontenido a {
-            display: inline;
-            margin: 10px;
-            text-decoration: none;
-            border: 0;
-            background: #335f92;
-            border: solid 1px #494043;
-            padding: 2px 10px;
-            border-radius: 3px;
-        }
-        
-        #derecha .derechacontenido a:hover {
-            background: #a6f59b;
-            box-shadow: 5px 5px 20px rgba(0, 0, 0, 3);
-        }
-        
-        #campo1 .campo1contenido {
-            text-align: center;
-            padding: 5px;
-            float: right;
-        }
-        
-        #campo1 .campo1contenido .menu2 {
-            display: inline-flex;
-        }
-        
-        #campo1 .campo1contenido .menu2 a {
-            padding: 2% 51px;
-            background-color: blue;
-            text-decoration: none;
-            border: solid 1px #494043;
-        }
-        
-        #campo1 .campo1contenido .menu2 a:hover {
-            background: #a6f59b;
-            font-size: 27px;
-        }
-        /*
-#campo2 .campo2contenido .menu1 a {
-    padding: 10px 50px;
-    margin: 10px;
-    background-color: blue;
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-*/
-        
-        #campo2 .campo2contenido {
-            background-image: url(imagenes/DesingWeb.webp);
-            width: 100%;
-            height: 100%;
-        }
-        
-        #campo2 .campo2contenido .menu p {
-            float: left;
-            margin: 10% 15%;
-            font-size: 20px;
-        }
-        
-        #campo2 .campo2contenido .menu img {
-            vertical-align: middle;
-            display: inline;
-            float: left;
-            height: 100%;
-            width: 100%;
-        }
+body {
+    background: #eeced8;
+}
+
+#contenedor {
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    height: 2200px;
+    background: #fcdbe6;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+#campo1 {
+    height: 2.55%;
+    background: #0b092b;
+    width: auto;
+    border: solid 1px #ecc0cf;
+    overflow: hidden;
+}
+
+#campo2 {
+    height: 22%;
+    width: auto;
+    border: solid 1px #494043;
+    /*background: #494043;*/
+}
+
+#campo3 {
+    height: 70%;
+    background: rgba(3, 7, 58, 0.404);
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    border: solid 1px #494043;
+}
+
+#campo4 {
+    height: 5%;
+    /* background: #9ba4f5;*/
+    border: solid 1px #494043;
+    background: #F0E68C;
+}
+
+#derecha {
+    width: 20%;
+    height: auto;
+    display: inline;
+    float: right;
+    border: solid 1px #910e3a;
+}
+
+#izquierda {
+    width: 80%;
+    height: auto;
+    border: solid 1px #494043;
+}
+
+#izquierda h1 {
+    margin-left: 20px;
+    float: left;
+    font-size: 30px;
+}
+
+#izquierda .campo3contenido {
+    float: left;
+    width: 90%;
+    overflow: hidden;
+    border: solid 1px #9a04fd;
+}
+
+#izquierda .campo3contenido img {
+    height: 100px;
+    width: 100px;
+    border: solid 1px #494043;
+    float: left;
+    margin: 20px;
+}
+
+#izquierda .campo3contenido h2 {
+    float: left;
+    color: black;
+}
+
+#izquierda .campo3contenido p {
+    color: black;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#izquierda .campo3contenido div {
+    color: black;
+    margin: 0;
+    padding: 1px;
+    margin: 10px 10px;
+}
+
+#derecha .derechacontenido {
+    background: #37b6dd;
+    border: solid 1px #494043;
+    vertical-align: middle;
+    height: 20%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#derecha .derechacontenido img {
+    height: 100px;
+    width: 100px;
+    margin: 10px
+}
+
+#derecha .derechacontenido h3 {
+    margin: 5px;
+}
+
+#derecha .derechacontenido div {
+    margin-top: 40px;
+}
+
+#derecha .derechacontenido p {
+    margin: 20px;
+    text-align: justify;
+}
+
+#derecha .derechacontenido a {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+    border: 0;
+    background: #ccf59e;
+    border: solid 1px #494043;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+#derecha .derechacontenido a:hover {
+    background: #e5f59b;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 3);
+}
+
+#campo1 .campo1contenido {
+    text-align: center;
+    padding: 5px;
+    float: right;
+}
+
+#campo1 .campo1contenido .menu2 {
+    display: inline-flex;
+}
+
+#campo1 .campo1contenido .menu2 a {
+    padding: 2% 51px;
+    background-color: blue;
+    text-decoration: none;
+    border: solid 1px #494043;
+}
+
+#campo1 .campo1contenido .menu2 a:hover {
+    background: #a6f59b;
+    font-size: 27px;
+}
+
+#campo2 .campo2contenido {
+    background-image: url(imagenes/DesingWeb.webp);
+    width: 100%;
+    height: 100%;
+    font-size: 27px;
+}
+
+#campo2 .campo2contenido .menu p {
+    float: left;
+    margin: 10% 15%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#campo2 .campo2contenido .menu img {
+    vertical-align: middle;
+    display: inline;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
