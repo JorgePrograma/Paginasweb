@@ -8,7 +8,6 @@
     font-family: 'Courier New', Courier, monospace;
     width: 1200px;
     height: 1025px;
-    background: #ebd40b;
     text-align: center;
     margin: 0.5em auto;
     padding: 0.5em;
@@ -22,11 +21,11 @@ body {
 .wrap {
     width: 99%;
     margin: 10px;
-    background-color: #C7C7C7;
+    background: #2D3E50;
 }
 
 header {
-    background-color: aqua;
+    background: #a4f575;
     height: 5%;
 }
 
@@ -63,17 +62,6 @@ header {
     margin: 10px;
 }
 
-.category_list :hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translate(-3);
-}
-
-.category_list {
-    text-align: center;
-    width: 18%;
-    border: 2px solid #000120;
-}
-
 .category_list .category_item {
     display: block;
     width: 90%;
@@ -97,6 +85,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     transition: all 400ms ease;
+    margin-left: 14%;
 }
 
 .products-list .product-item {
@@ -163,6 +152,13 @@ header {
 }
 
 .box__footer a {
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-align: left;
+}
+
+.box__footer p {
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;

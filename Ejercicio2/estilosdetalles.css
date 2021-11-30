@@ -12,12 +12,13 @@
     margin: 0.5em auto;
     padding: 0.5em;
     text-align: center;
+    background-color: #e7c96c;
 }
 
 header {
     width: auto;
     height: 4%;
-    background: red;
+    background-color: #e7c96c;
 }
 
 footer {
@@ -53,7 +54,7 @@ footer {
 }
 
 #campo3 {
-    background: blue;
+    background: #0d5c48;
     height: 90%;
     width: 71.3%;
     border: 2px solid #333132;
@@ -224,4 +225,20 @@ h4 {
 .otroscursos {
     margin-top: 20px;
     border: 2px solid #5e5d5a;
+}
+
+#contenedor header a {
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-style: italic;
+    color: #0d5c48;
+}
+
+#contenedor header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 3px;
 }
