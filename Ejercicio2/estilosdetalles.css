@@ -242,3 +242,8 @@ h4 {
     text-decoration: underline;
     border-radius: 3px;
 }
+
+.box__copyright p {
+    margin-top: 40px;
+    color: #0a0707;
+}
