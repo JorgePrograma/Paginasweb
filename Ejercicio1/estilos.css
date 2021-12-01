@@ -55,6 +55,11 @@ h3 {
     transform: rotate(-90deg);
 }
 
+.ubicacion td,
+.ubicacion h3 {
+    background-color: rgb(230, 218, 202);
+}
+
 .casos td {
     text-align: center;
     background-color: rgb(205, 99, 50);
@@ -88,6 +93,24 @@ h3 {
     text-transform: uppercase;
 }
 
-.manejo td3 {
-    background-color: rgba(72, 72, 204, 0);
+.man td {
+    background-color: rgba(28, 28, 184, 0);
+}
+
+.recuperados td,
+.recuperados h3 {
+    text-align: center;
+    background-color: rgba(42, 212, 26, 0.945);
+}
+
+.decesos td,
+.decesos h3 {
+    text-align: center;
+    background-color: rgba(236, 19, 12, 0.945);
+}
+
+.man td,
+.man h3 {
+    text-align: center;
+    background-color: rgba(236, 202, 12, 0.945);
 }
