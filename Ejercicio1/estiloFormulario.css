@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: blueviolet;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+}
+
+form {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #ccc;
+}
+
+form .input-box {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form .input-box label {
+    margin-right: 20px;
+    width: 120px;
+    height: 10px;
+}
+
+form .input-box select {
+    margin-right: 20px;
+    width: 220px;
+    height: 30px;
+}
+
+.final {
+    margin: 20px 70px;
+    text-align: center;
+}
+
+.final button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: orange;
+    font-style: italic;
+    border: 20;
+    font-size: 20px;
+}
+
+.final p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
